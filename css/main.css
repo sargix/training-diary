@@ -1,0 +1,138 @@
+.form {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    padding: 1.5rem;
+    transform: translateX(-50%);
+    width: 30%;
+    background-color: rgb(204, 204, 204);
+    font-size: 3rem;
+    border: rgb(58, 63, 47) solid 3px;
+    border-radius: 5rem;
+}
+
+input {
+    font-size: 2.5rem;
+    margin: 1rem;
+    padding: .2rem;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: .8rem;
+    color: white;
+    border-radius: 3rem;
+    border: solid 3px rgb(139, 139, 255);
+    cursor: pointer;
+    background-color: rgb(24, 69, 204);
+    transition: .4s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(245, 143, 60);
+    border-color: rgb(170, 75, 12);
+}
+
+label {
+    display: block;
+}
+
+.title2 {
+    font-size: 4rem;
+    width: 25rem;
+    margin: 0 auto .5rem auto;
+    text-align: center;
+    padding: .5rem;
+    background-color: rgb(56, 87, 179);
+    border-radius: 5rem;
+}
+
+.message {
+    z-index: 2;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    font-size: 2.5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: red;
+    background-color: white;
+}
+
+div.good {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.add {
+    position: absolute;
+    top: 20%;
+    right: 3%;
+}
+
+.btn.edit {
+    font-size: 1.3rem;
+    padding: .3rem;
+}
+
+.btn.delete {
+    font-size: 1.3rem;
+    padding: .3rem;
+}
+
+.btn.delete:hover {
+    background-color: #F00;
+}
+
+.return {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+
+.btn {
+    background-color: rgb(24, 69, 204);
+    margin: .3rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-radius: .7rem;
+    border: solid 3px rgb(139, 139, 255);
+    transition: .3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(245, 143, 60);
+    border-color: rgb(170, 75, 12);
+}
+
+.btn-wrap {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    max-width: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.setting {
+    z-index: 4;
+    margin-left: 30%;
+}

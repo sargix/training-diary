@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    background-image: url('../images/gym.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrap-header {
+    width: 100%;
+    min-height: 95vh;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, .7);
+    position: relative;
+}
+
+.title {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+}
+
+.icon {
+    position: absolute;
+    top: 4rem;
+    right: 3%;
+    font-size: 4rem;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.settings {
+    top: 80%;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon-span {
+    font-size: 2rem;
+}
